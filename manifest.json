@@ -1,0 +1,21 @@
+{
+    "name": "HackerNews Dialogue",
+    "description": "HackerNews discussions on your visiting webpage",
+    "version": "1.0",
+    "permissions": ["storage", "tabs"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "assets/hn16.png",
+            "24": "assets/hn24.png",
+            "32": "assets/hn32.png"
+            
+        },
+        "default_title": "HackerNews Dialogue",
+        "default_popup": "popup.html"
+
+    },
+    "manifest_version": 3
+  }
